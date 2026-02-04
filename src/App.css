@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body,html,:root{
+  height:100vh;
+  background-color: aquamarine;
+
+}
+.navcontainer{
+  height:fit-content;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px;
+  background-color: black;
+
+}
+.nav{
+ 
+  display:flex;
+  justify-content: center;
+
+  padding:12px;
+  border:2px solid black;
+}
+.items{
+  list-style: none;
+  cursor:pointer;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  padding:10px;
+  text-align: center;
+
+}
+li{
+  width:fit-content;
+  color:white;
+
+}
