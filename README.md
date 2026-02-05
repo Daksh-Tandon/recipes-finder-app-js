@@ -1,4 +1,34 @@
 # React + Vite
+# 🍽️ Recipe Finder App
+
+A simple and responsive **Recipe Finder Web Application** built using **React + Vite**.  
+Users can search for dishes or ingredients and instantly get recipe instructions along with images.
+
+---
+
+## 🚀 Features
+
+- 🔍 Search recipes by dish name
+- 📖 View detailed cooking instructions
+- 🖼️ Recipe image preview
+- 📱 Fully responsive design (mobile & desktop)
+- ⚡ Fast performance using Vite
+- 🌐 Uses **TheMealDB API**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JavaScript, CSS
+- **Build Tool:** Vite
+- **API:** [TheMealDB](https://www.themealdb.com/)
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
