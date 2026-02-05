@@ -24,7 +24,6 @@
   border-radius: 10px;
   padding: 15px;
   background-color: white;
-
   max-height: 70vh;        
   overflow-y: auto;       
   white-space: pre-line;
@@ -58,10 +57,11 @@ button img {
 
   .content {
     position: static;
+    padding:10px;
   }
 
   .solution {
-    max-height: none;
+    max-height: 400px;
   }
 }
 
