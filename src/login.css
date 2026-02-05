@@ -20,7 +20,8 @@ body {
 /* Login Card */
 .Head {
     height:50vh;
-  width: 350px;
+  width:300px;
+  max-width: none;
   padding: 30px;
   border-radius: 12px;
   background-color: #ffffff;
@@ -43,6 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width:300px;
 }
 
 /* Inputs */
@@ -60,13 +62,15 @@ body {
 
 /* Button */
 .submit {
-  padding: 12px;
+  padding: 10px;
   border-radius: 6px;
   border: none;
   background-color: #007bff;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
+  width:100%;
+
 }
 
 .submit:hover {
